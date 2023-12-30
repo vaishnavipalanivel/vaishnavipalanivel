@@ -1,0 +1,6 @@
+from pandas import read_csv
+from matplotlib import pyplot
+series=read_csv('pathname')
+print(series.head())
+series.plot()
+pyplot.show
